@@ -73,6 +73,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
      apt-get update
      apt-get install -y apache2 git
-     echo "Hello from the updated Vagrant set up" | sudo tee /var/www/html/index.html
+     echo "Hello from the Hu's updated Vagrant set up" | sudo tee /var/www/html/index.html
   SHELL
 end
